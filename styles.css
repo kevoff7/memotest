@@ -19,3 +19,26 @@ body {
   border: 1px solid white;
   cursor: pointer;
 }
+
+.tomato {
+  background-color: #ac4d39;
+}
+.crimson {
+  background-color: #e93d82;
+}
+.violet {
+  background-color: #6e56cf;
+}
+.blue {
+  background-color: #0090ff;
+}
+.amber {
+  background-color: #ffca16;
+}
+.jade {
+  background-color: #1fd8a4;
+}
+
+.hidden {
+  background-color: transparent;
+}
