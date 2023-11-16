@@ -1,4 +1,5 @@
 const $boxElements = document.querySelectorAll('.box')
+
 const $container = document.querySelector('.container')
 const $pageWinGame = document.querySelector('#page-win-game')
 
@@ -16,6 +17,7 @@ startGame()
 
 function randomPaintingBoxElements(boxElements){
     boxElements.forEach((box) => {
+
         if(box.id.length === 0){
             const colorIndex = colorRandom()
             box.id = colors[colorIndex]
@@ -95,5 +97,3 @@ function hiddenBoxElement(boxElement){
 function showBoxElement(boxElement){
     boxElement.classList.add('show-box')
 }
-
-
