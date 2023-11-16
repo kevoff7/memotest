@@ -15,9 +15,18 @@ body {
   gap: 1rem;
 }
 
-.box {
+.container-box {
   border: 1px solid white;
   cursor: pointer;
+}
+
+.box {
+  opacity: 0;
+  height: 100%;
+}
+
+.show-box {
+  opacity: 1;
 }
 
 .tomato {
@@ -39,6 +48,17 @@ body {
   background-color: #1fd8a4;
 }
 
-.hidden {
-  background-color: transparent;
+.completed {
+  background-color: rgb(155, 146, 146);
+}
+
+.win-game {
+  color: white;
+  display: none;
+}
+
+.paragraph {
+  padding: 1rem;
+  font-family: monospace;
+  font-size: 2rem;
 }
