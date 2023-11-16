@@ -19,4 +19,3 @@ In addition, I have used Cypress for e2e testing.
 
 _you must first run the program if you want the tests to work correctly._
 
-This web site is using `markedjs/marked`.
