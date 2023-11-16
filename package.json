@@ -1,0 +1,17 @@
+{
+  "name": "memotest",
+  "version": "1.0.0",
+  "description": "Game to improve your memory level",
+  "main": "index.js",
+  "scripts": {
+    "dev": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress-dev": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.5.1"
+  }
+}
